@@ -3,7 +3,7 @@ import locationSVG from "../assets/icons/locationSVG.svg";
 import Rock from "../assets/img/rock.jpeg";
 import sanFrancisco from "../assets/img/sanFrancisco.jpeg";
 import navagio from "../assets/img/navagio.jpeg";
-import aoNang from "../Assets/img/aoNang.jpeg";
+import aonang from "../Assets/img/aoNang.jpeg";
 import phiphi from "../Assets/img/phiphi.jpeg";
 export default function Places() {
   const cardData = [
@@ -24,7 +24,7 @@ export default function Places() {
       title: "Navagio, Greece",
     },
     {
-      imgSource: aoNang,
+      imgSource: aonang,
       title: "Ao Nang, Thailand",
     },
     {
