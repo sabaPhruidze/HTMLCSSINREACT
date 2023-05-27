@@ -2,7 +2,7 @@ import church from "../assets/img/church.jpeg";
 import locationSVG from "../assets/icons/locationSVG.svg";
 import Rock from "../assets/img/rock.jpeg";
 import sanFrancisco from "../assets/img/sanFrancisco.jpeg";
-import navagio from "../Assets/img/navagio.jpeg";
+import navagio from "../assets/img/navagio.jpeg";
 import aoNang from "../Assets/img/aoNang.jpeg";
 import phiphi from "../Assets/img/phiphi.jpeg";
 export default function Places() {
