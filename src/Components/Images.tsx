@@ -1,6 +1,6 @@
 import swinging from "../assets/img/swinging.jpeg";
 import insideWater from "../assets/img/insideWater.jpeg";
-import location from "../Assets/icons/locationSVG.svg";
+import locationA from "../Assets/icons/locationSVG.svg";
 import plane from "../Assets/icons/plane-departure-solid.svg";
 import palma from "../Assets/img/hamaki-on-2-palma.jpeg";
 export default function Images() {
@@ -16,7 +16,7 @@ export default function Images() {
             <img src={insideWater} alt="" className="sz-img" />
           </div>
           <div className="sz-div flex-column flex-center">
-            <img src={location} alt="location" className="location" />
+            <img src={locationA} alt="location" className="location" />
             <h1>Beautiful places</h1>
             <p>
               Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
