@@ -1,4 +1,24 @@
 export default function Header() {
+  const HeaderData = [
+    {
+      context: "Home",
+      href: "#home",
+    },
+    {
+      context: "Blog",
+    },
+    {
+      context: "Contacts",
+    },
+    {
+      context: "Places",
+      href: "#places",
+    },
+    {
+      context: "Discount",
+      href: "#discount",
+    },
+  ];
   return (
     <>
       <header>
@@ -6,23 +26,14 @@ export default function Header() {
           <a href="/" className="logo">
             Travel.co
           </a>
-          <ul className="menu">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="readMore.html">Blog</a>
-            </li>
-            <li>
-              <a href="">Contacts</a>
-            </li>
-            <li>
-              <a href="#places">Places</a>
-            </li>
-            <li>
-              <a href="#discount">Discount</a>
-            </li>
-          </ul>
+
+          {HeaderData.map((data, idx) => (
+            <ul className="menu" key={idx}>
+              <li>
+                <a href={data.href}>{data.context}</a>
+              </li>
+            </ul>
+          ))}
           <a href="/" id="home"></a>
         </div>
       </header>

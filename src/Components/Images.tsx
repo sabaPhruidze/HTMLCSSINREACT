@@ -1,8 +1,8 @@
-import swinging from "../assets/img/swinging.jpeg";
-import insideWater from "../assets/img/insideWater.jpeg";
+import swinging from "../assets/img/swinging.jpg";
+import insideWater from "../assets/img/insideWater.jpg";
 import locationA from "../Assets/icons/locationSVG.svg";
 import plane from "../Assets/icons/plane-departure-solid.svg";
-import palma from "../Assets/img/hamaki-on-2-palma.jpeg";
+import palma from "../Assets/img/hamaki-on-2-palma.jpg";
 export default function Images() {
   return (
     <div className="images-container">
