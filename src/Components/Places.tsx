@@ -23,10 +23,7 @@ export default function Places() {
       imgSource: navagio,
       title: "Navagio, Greece",
     },
-    {
-      imgSource: aonang,
-      title: "Ao Nang, Thailand",
-    },
+
     {
       imgSource: phiphi,
       title: "Phi Phi Islands, Thailand",
