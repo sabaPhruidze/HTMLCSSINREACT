@@ -7,7 +7,7 @@ export default function Images() {
   return (
     <div className="images-container">
       <div className="center-cont d-flex">
-        <div style={{ marginRight: "30px" }}>
+        <div>
           <img src={swinging} alt="swinging" className="swinging" />
         </div>
         <div className="flex-column">

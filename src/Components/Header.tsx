@@ -26,7 +26,6 @@ export default function Header() {
           <a href="/" className="logo">
             Travel.co
           </a>
-
           {HeaderData.map((data, idx) => (
             <ul className="menu" key={idx}>
               <li>

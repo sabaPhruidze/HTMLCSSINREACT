@@ -47,10 +47,12 @@ header {
 }
 header .menu {
   list-style:none;
+  width:10px;
+  margin-top:6px
 }
 header .menu li {
   display:inline-block;
-  padding:0 25px;
+  
 }
 header a {
   color:white;
@@ -243,7 +245,7 @@ transform: scale(0.97);
   height:calc(735px / 2);
   display: flex;
   align-items: center;
-  background-image:url(./Assets/img/sanapiro-tyita-da-zgvit.jpeg);
+  background-image:url(./Assets/img/sanapiro-tyita-da-zgvit.jpg);
   background-size:1580px;
   background-position: center;
   background-repeat: no-repeat;

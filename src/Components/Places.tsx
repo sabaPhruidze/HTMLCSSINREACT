@@ -3,7 +3,7 @@ import locationSVG from "../assets/icons/locationSVG.svg";
 import Rock from "../assets/img/rock.jpg";
 import sanFrancisco from "../assets/img/sanFrancisco.jpg";
 import navagio from "../assets/img/navagio.jpg";
-import aonang from "../Assets/img/aoNang.jpg";
+import aonang from "../Assets/img/aonangg.jpg";
 import phiphi from "../Assets/img/phiphi.jpg";
 export default function Places() {
   const cardData = [
